@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  /* #region  /**=========== Primary Color =========== */
+  --tw-color-primary-solid: #7840b2;
+  --tw-color-primary-light: #7840b21c;
+  --tw-color-primary-dark: #542f7b;
+  --color-primary-solid: rgb(var(--tw-color-primary-solid));
+  --color-primary-light: rgb(var(--tw-color-primary-light));
+  --color-primary-dark: rgb(var(--tw-color-primary-dark));
+  /* #endregion  /**======== Primary Color =========== 
+} */
+body,
+form,
+fieldset,
+ol,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: 0;
+  vertical-align: bottom;
+  width: 100%;
+}
+button {
+  outline: none;
+}
+/* ------------------- Defaults ------------------- */
+html {
+  height: 100%;
+  overflow: auto;
+  overflow-y: scroll;
+}
+body {
+  height: 100%;
+  font: 100%/1.5 "Montserrat", sans-serif;
+  background: #fff;
+  color: #333;
+}
+/* ------------------ Typography ------------------- */
+
+p,
+ul,
+ol {
+  font-size: 1em;
+}
+ul {
+  list-style: none;
+}
+h1 {
+  font-size: 1.6em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.4em;
+}
+h4 {
+  font-size: 1.3em;
+}
+h5 {
+  font-size: 1.2em;
+}
+h6 {
+  font-size: 1.1em;
+}
+
+/* ------------------- Links ---------------------- */
+a {
+  text-decoration: none;
+  color: #333333;
+  outline: 0;
+  /* font-family: ; */
+}
+a:visited {
+  color: #333333;
+}
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+/* ------------------- Fonts ------------------- */
+.font-stander {
+  font-family: grandstander;
+  src:url(../../public/fonts/Grandstander-clean.otf)
+  /* src: url(~/fonts/Grandstander-clean.otf); */
+}
+.font-Light {
+  font-family: GothamLight;
+  src: url(../../public/fonts/GothamLight.ttf);
+}
+.font-Medium {
+  font-family: GothamMedium;
+  src: url(../../public/fonts/GothamMedium.ttf);
+}
+.font-Book {
+  font-family: GothamBook;
+  src: url(../../public/fonts/GothamBook.ttf);
+}
+
+
+/* ------------------- Box Shadow ------------------- */
+
+.shadow-nav{
+  box-shadow: 0px 1px 10px #0000001a;
+}
+
+.shadow-wallet{
+  box-shadow: 1px 1px 0px #00000029;
+}
+
+.swiper-slide {
+  background: #fff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 200px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+
+.box-swiper .swiper-button-next {
+  background: url(/images/icons/next.svg) no-repeat 0px 0px;
+}
+.box-swiper .swiper-button-next:hover {
+  background: url(/images/icons/next-active.svg) no-repeat 0px 0px;
+}
+.box-swiper .swiper-button-prev {
+  background: url(/images/icons/prev.svg) no-repeat 0px 0px;
+}
+.box-swiper .swiper-button-prev:hover {
+  background: url(/images/icons/prev-active.svg) no-repeat 0px 0px;
+}
+
+.watch-btn:hover {
+  background: #ff3a58;
+  color: #fff;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+ .like:hover {
+  transform: scale(1.2);
+  transition: all 1s ease;
+}
+
+.time a:hover {
+  background: #beffda;
+  border: 0.6000000238418579px solid #02c972;
+  transition: all 1s ease;
+}
+
+.book-class:hover {
+  background: #fff;
+  color: #ff3a58;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.share:hover {
+  background: #fdffd3;
+  border: 1px solid #333;
+  color: #333;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.step-card-sha{
+  box-shadow: 3px 3px 0px #0000001a;
+}
+.step-card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 1s ease;
+}
