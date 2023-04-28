@@ -69,3 +69,4 @@ Don't forget to change the package name in package.json
 This starter is using [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/), it is mandatory to use it to commit changes.
 
 Link:-- https://museum-landing-page.vercel.app
+
